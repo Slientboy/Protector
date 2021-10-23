@@ -33,7 +33,7 @@ from .base import Base
 from .client import Client
 
 if TYPE_CHECKING:
-    from .Protector import Protector
+    from Protector.core import Protector
 
 LOG = logging.getLogger(__name__)
 
