@@ -33,7 +33,7 @@ from ..utils import get_readable_time
 from . import pool
 from .database import DataBase
 from .plugin_extender import PluginExtender  # pylint: disable=R0401
-from .core import Protector  # pylint: disable=R0401
+# from .core import Protector  # pylint: disable=R0401
 
 LOGGER = logging.getLogger(__name__)
 
